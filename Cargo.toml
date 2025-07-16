@@ -3,8 +3,13 @@ name = "vid2gif"
 version = "0.1.0"
 edition = "2021"
 description = "A CLI tool for converting videos to GIFs using ffmpeg"
-authors = ["Your Name <your.email@example.com>"]
+authors = ["Jarad DeLorenzo <jaradd@gmail.com>"]
 license = "MIT"
+repository = "https://github.com/delorenj/vid2gif"
+homepage = "https://github.com/delorenj/vid2gif"
+documentation = "https://docs.rs/vid2gif"
+keywords = ["video", "gif", "ffmpeg", "converter", "cli"]
+categories = ["command-line-utilities", "multimedia::video"]
 
 [dependencies]
 clap = { version = "4.4", features = ["derive"] }
